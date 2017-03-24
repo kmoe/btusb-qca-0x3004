@@ -1,5 +1,5 @@
---- a/drivers/bluetooth/btusb.c	2015-12-31 05:08:23.080104409 +0100
-+++ b/drivers/bluetooth/btusb.c	2015-12-31 05:08:11.210104749 +0100
+--- a/btusb.c
++++ b/btusb.c
 @@ -197,7 +197,6 @@
  	{ USB_DEVICE(0x0930, 0x0227), .driver_info = BTUSB_ATH3012 },
  	{ USB_DEVICE(0x0b05, 0x17d0), .driver_info = BTUSB_ATH3012 },
